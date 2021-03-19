@@ -56,7 +56,10 @@
 				$('html, body').animate({
 			        scrollTop: $('.oneblock.off').eq(cur).offset().top-550
 			    }, 700);
-			    cur++;
+			}
+			cur++;
+			if(cur == 2) {
+				$('.next-button').html('Келесі');
 			}
 		});
 	</script>
